@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Router>
       <Routes>
-        <Route path="/" element={<Start/>} />
+        <Route path="/dsavisualizer" element={<Start/>} />
         <Route path="/about" element={<Start/>}/>
         <Route path="/array" element={<ArrayPage/>}/>
         <Route path="/quicksorting" element={<QuickSortingPage/>} /> 
